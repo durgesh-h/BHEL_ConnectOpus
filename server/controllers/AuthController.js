@@ -79,7 +79,6 @@ export const getUserInfo = async (request, response, next) => {
     return response.status(404).send("User with the given id not found.");
    }
      return response.status(200).json({
-      
         id: userData.id,
         email: userData.email,
         profileSetup: userData.profileSetup,
@@ -87,7 +86,6 @@ export const getUserInfo = async (request, response, next) => {
         lastName: userData.lastName,
         image: userData.image,
         color: userData.color
-     
     });
   } catch (error) {
     console.log({ error });
@@ -173,6 +171,19 @@ export const removeProfileImage = async (request, response, next) => {
    await user.save();
 
      return response.status(200).send("Profile photo removed successfully.");
+  } catch (error) {
+    console.log({ error });
+    return response.status(500).send("Internal Server Error");
+  }
+};
+
+
+
+export const logout = async (request, response, next) => {
+  try {
+  
+  response.cookie("jwt", "", {maxAge:1, secure:true, sameSite:"None"})
+     return response.status(200).send("Logout successfully.");
   } catch (error) {
     console.log({ error });
     return response.status(500).send("Internal Server Error");
