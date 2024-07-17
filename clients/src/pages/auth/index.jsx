@@ -111,6 +111,7 @@ function Auth() {
               <TabsList className="bg-transparent rounded-none w-full">
                 <TabsTrigger
                   value="login"
+                  name="login"
                   className="data-[state=active]:bg-transparent
                             text-black text-opacity-90 border-b-2 rounded-none w-full data-[state=active]:text-black
                             data-[state-active]:font-semibold data-[state=active]:border-b-purple-500 p-3 transition-all duration-300"
@@ -119,6 +120,7 @@ function Auth() {
                 </TabsTrigger>
                 <TabsTrigger
                   value="signup"
+                  name="signup"
                   className="data-[state=active]:bg-transparent
                             text-black text-opacity-90 border-b-2 rounded-none w-full data-[state=active]:text-black
                             data-[state-active]:font-semibold data-[state=active]:border-b-purple-500 p-3 transition-all duration-300"
@@ -129,10 +131,12 @@ function Auth() {
               <TabsContent
                 className="flex flex-col w-full gap-5 "
                 value="login"
+                name="login"
               >
                 <Input
                   placeholder="Email"
                   type="email"
+                  name="emaill"
                   className="rounded-full p-6 border-blue-800"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -140,6 +144,7 @@ function Auth() {
                 <Input
                   placeholder="Password"
                   type="password"
+                  name="password"
                   className="rounded-full p-6  border-blue-800"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -156,6 +161,7 @@ function Auth() {
                 <Input
                   placeholder="Email"
                   type="email"
+                  name="email"
                   className="rounded-full p-6  border-blue-800"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -163,6 +169,7 @@ function Auth() {
                 <Input
                   placeholder="Password"
                   type="password"
+                  name="password"
                   className="rounded-full p-6  border-blue-800"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -170,6 +177,7 @@ function Auth() {
                 <Input
                   placeholder="Confirm Password"
                   type="password"
+                  name="confirmPassword"
                   className="rounded-full p-6  border-blue-800"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
