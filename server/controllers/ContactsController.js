@@ -74,7 +74,7 @@ export const getContactsForDMList = async (request, response, next) => {
           lastMessageTime:1,
           email:"$contactInfo.email",
           firstName: "$contactInfo.firstName",
-          lastName: "$contactInfo.image",
+          lastName: "$contactInfo.lastName",
           image: "$contactInfo.image",
           color:"$contactInfo.color",
         },
