@@ -22,7 +22,6 @@ const ContactList = ({ contacts, isChannel = false }) => {
   };
   return (
     <div className="mt-5">
-        
       {contacts.map((contact) => (
         <div
           key={contact._id}
@@ -65,7 +64,11 @@ const ContactList = ({ contacts, isChannel = false }) => {
             {isChannel ? (
               <span> {contact.name}</span>
             ) : (
-              <span>{`${contact.firstName} ${contact.lastName}`}</span>
+              <span>
+                {contact.firstName
+                  ? `${contact.firstName} ${contact.lastName}`
+                  : contact.email}
+              </span>
             )}
           </div>
         </div>
