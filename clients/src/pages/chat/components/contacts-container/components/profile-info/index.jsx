@@ -60,7 +60,7 @@ function ProfileInfo() {
             : ""}
         </div>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-10 lg:gap-4 ">
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger>
