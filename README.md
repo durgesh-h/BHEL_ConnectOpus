@@ -1,2 +1,2 @@
-# BHEL_DiscussionForum_APP
+# BHEL_ConnectOpus
 BHEL_DiscussionForum_APP
