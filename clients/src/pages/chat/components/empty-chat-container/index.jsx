@@ -11,17 +11,18 @@ function EmptyChatContainer() {
         options={animationDefaultOptions}
       />
       <div className="text-opacity-80 text-white flex flex-col gap-5 items-center mt-10 lg:text-xl text-2xl transition-all duration-300 text-center ">
+      <span className="text-purple-500">BHEL</span>
         <span className="text-4xl font-semibold poppins-medium ">
           <span className="text-purple-500">C</span>onnect
           <span className="text-purple-500">O</span>pus
           <span className="text-purple-500">.</span>
         </span>
 
-        <h3 className="poppins-medium">
+        {/* <h3 className="poppins-medium">
           Hi<span className="text-purple-500">!</span> Welcome to{" "}
           <span className="text-purple-500">BHEL</span> Discussion Forum App
           <span className="text-purple-500">.</span>
-        </h3>
+        </h3> */}
       </div>
     </div>
   );

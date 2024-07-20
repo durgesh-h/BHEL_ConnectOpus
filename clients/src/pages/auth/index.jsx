@@ -11,6 +11,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import meeting from "../../assets/meeting.jpeg";
+import Footer from "@/components/Footer";
 function Auth() {
   const navigate = useNavigate();
   const { setUserInfo } = useAppStore();
@@ -76,6 +77,7 @@ function Auth() {
   };
 
   return (
+    <>
     <div className="h-[100vh] w-[100vw] flex items-center justify-center">
       <img
         src={meeting}
@@ -192,8 +194,12 @@ function Auth() {
         {/* <div className="hidden xl:flex justify-center items-center">
           <img src={Background} alt="background login" className="h-[200px]" />
         </div> */}
+        
       </div>
+     
     </div>
+    <Footer/>
+    </>
   );
 }
 
