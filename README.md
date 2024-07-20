@@ -1,2 +1,2 @@
 # BHEL_DiscussionForum_APP
- A BHEL APP
+BHEL_DiscussionForum_APP
