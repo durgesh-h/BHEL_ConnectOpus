@@ -2,6 +2,11 @@
 
 - A Discussion Forum Application for the BHARAT HEAVY ELECTRICALS LIMITED, BHOPAL. 
 - Where BHEL Officials can meet up and discuss over a Project.
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/b68e6460-eebb-4c3d-a080-1ea718c01e74" width="500" height="150">
+</p>
+
+
 
 ## 📌 Live Demo
 - https://bhelconnectopus-durgesh-prasads-projects.vercel.app
@@ -70,3 +75,16 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
 
 
 You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
+
+## 📸 ScreenShots
+![image](https://github.com/user-attachments/assets/5dec30ed-d004-4abb-9e94-754dd761c867)
+![image](https://github.com/user-attachments/assets/9b1c0e0c-e85b-4499-9a14-6e78c507d318)
+![image](https://github.com/user-attachments/assets/cd9df3b0-b7ca-427c-adc1-462638266de1)
+![image](https://github.com/user-attachments/assets/5ccdcb98-1682-4226-8b15-a9fb112e9fd2)
+![image](https://github.com/user-attachments/assets/8c14f518-2d18-44c2-94e8-f2836eec1cc5)
+![image](https://github.com/user-attachments/assets/b59ac5c5-29b6-4043-82e0-9a6f29cdae49)
+![image](https://github.com/user-attachments/assets/48917c66-8821-401f-932e-9a14f4884e84)
+![image](https://github.com/user-attachments/assets/0795a288-c7b1-4224-9d86-d733876d5dbc)
+
+
+
