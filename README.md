@@ -23,11 +23,15 @@
 - File downloading functionality is also inbuilt. <br>
 
 ## 🚀 What technologies were used? 
-- react.js (create-react-app) 
-- react-dom-router 
-- shadcn 
-- socket.io 
-- state management using zustand.
+- React Vite.js
+- Tailwind css for styling
+- React-router-dom 
+- Shadcn Library 
+- Socket.io 
+- State management using Zustand.
+- Files management using Multer.
+- Express for backend.
+- MongoDB for Database.
 
 This is a [Vite.js](https://vitejs.dev) project bootstrapped with [`$create vite@latest`](https://vitejs.dev/guide/) which is a React.js tool for building Web Applications.
 
