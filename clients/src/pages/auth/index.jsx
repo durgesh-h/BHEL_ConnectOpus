@@ -95,7 +95,7 @@ function Auth() {
           className="md:h-[110px] h-28 rounded-md"
         />
       </div>
-      <div className="h-[60vh] mt-40 absolute bg-white bg-opacity-90 border-2 border-white text-opacity-90 shadow-2xl w-[80vw] md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-1">
+      <div className="h-[500px] mt-40 absolute bg-white bg-opacity-90 border-2 border-white text-opacity-90 shadow-2xl w-[80vw] md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-1">
         <div className="flex flex-col gap-10 items-center justify-center">
           <div className="flex flex-col items-center justify-center ">
             <div className="flex items-center justify-center">
