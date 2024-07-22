@@ -1,7 +1,8 @@
 {
-  "name": "client",
+  "name": "connectopus_client",
   "private": true,
   "version": "0.0.0",
+  "description": "A Discussion Forum Application for the BHARAT HEAVY ELECTRICALS LIMITED, BHOPAL. Where BHEL Officials can meet up and discuss over a Project. Opus means work",
   "type": "module",
   "scripts": {
     "dev": "vite",

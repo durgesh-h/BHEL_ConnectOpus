@@ -78,7 +78,7 @@ function Auth() {
 
   return (
     <>
-    <div className="h-[100vh] w-[100vw] flex items-center justify-center">
+    <div className="h-[100vh] max-w-screen flex items-center justify-center">
       <img
         src={meeting}
         className=" md:flex justify-center items-center w-full hidden h-screen overflow-hidden relative"
@@ -95,7 +95,7 @@ function Auth() {
           className="md:h-[110px] h-28 rounded-md"
         />
       </div>
-      <div className="h-[500px] mt-40 absolute bg-white bg-opacity-90 border-2 border-white text-opacity-90 shadow-2xl w-[80vw] md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-1">
+      <div className="h-[60vh] mt-40 absolute bg-white bg-opacity-90 border-2 border-white text-opacity-90 shadow-2xl w-[80vw] md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-1">
         <div className="flex flex-col gap-10 items-center justify-center">
           <div className="flex flex-col items-center justify-center ">
             <div className="flex items-center justify-center">
@@ -157,7 +157,7 @@ function Auth() {
                 </Button>
               </TabsContent>
               <TabsContent
-                className="flex flex-col w-full gap-5 "
+                className="flex flex-col w-full gap-5 lg:gap-2 "
                 value="signup"
               >
                 <Input

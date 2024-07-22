@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "connectopus_server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discussion Forum Application for the BHARAT HEAVY ELECTRICALS LIMITED, BHOPAL. Where BHEL Officials can meet up and discuss over a Project. Opus means work",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,7 +1,7 @@
 // Footer.jsx
 const Footer = () => {
   return (
-    <footer className="bg-black font-spacegrotesk text-gray-400 p-1  text-sm">
+    <footer className="bg-black font-spacegrotesk max-w-screen text-gray-400 p-1 text-xs">
    
       
       <div className=" border-gray-700 text-center p-2 mt-2">
